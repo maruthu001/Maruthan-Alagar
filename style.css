@@ -1,0 +1,13 @@
+h1, h2, h3 {
+	color:green;
+	font-family:"Cinzel"
+}
+mark{
+	background-color:white;
+		font-family:"Cinzel";
+		color:green;
+}
+p{
+	color:darkred;
+	font-family:"prompt"
+}
