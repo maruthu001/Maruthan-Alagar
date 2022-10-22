@@ -1,6 +1,13 @@
-h1, h2, h3 {
+h1, h2, h3 ,h4{
 	color:green;
-	font-family:"Cinzel"
+	font-family:"Cinzel";
+	text-align:center;
+}
+h4{
+	text-align:left;
+}
+body{
+	background-color:lightyellow;
 }
 mark{
 	background-color:white;
