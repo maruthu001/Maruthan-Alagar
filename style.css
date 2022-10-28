@@ -1,5 +1,5 @@
 h1, h2, h3 ,h4{
-	color:green;
+	color:yellow;
 	font-family:"Cinzel";
 	text-align:center;
 }
@@ -7,14 +7,38 @@ h4{
 	text-align:left;
 }
 body{
-	background-color:lightyellow;
+	background-image:linear-gradient(red,green,orange,tomato);
 }
-mark{
-	background-color:white;
-		font-family:"Cinzel";
-		color:green;
-}
+
 p{
-	color:darkred;
-	font-family:"prompt"
+	color:white;
+	font-family:"prompt";
+}
+
+header{
+	margin: auto auto 0 auto; 
+}
+img{
+	margin-left:625px;
+	position:center;
+	border:3px;
+	border-color:yellow;
+}
+header a{
+	font-size:20px;
+	font-family:"Cinzel";
+	color:yellow;
+	display:flex;
+	justify-content:flex-end;
+	text-align:right;
+	margin-left:10px;
+	padding:10px;
+	font-weight:bold;
+	
+}
+
+
+header nav {
+	display: flex;
+	justify-content:flex-end;
 }
